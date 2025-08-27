@@ -19,12 +19,6 @@ const NoteDetailsClient = () => {
     refetchOnMount: false,
   });
 
-  // const [isEdit, setIsEdit] = useState(false);
-
-  // const handleEdit = () => {
-  //   setIsEdit(true);
-  // };
-
   if (isLoading) {
     return <p>Loading, please wait...</p>;
   }
